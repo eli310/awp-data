@@ -36,7 +36,11 @@ public class StdIn {
      *     false} otherwise
      */
     public static boolean isEmpty() {
-        return !scanner.hasNext();
+        return !isNotEmpty();
+    }
+
+    public static boolean isNotEmpty() {
+        return scanner.hasNext();
     }
 
     /**
