@@ -8,11 +8,12 @@ import com.coine.util.StdOut;
 /**
  * @author lihailong
  * @version 2017/11/22
- * @since 4-0-
+ * @since 1.0
  */
 public class Stats {
 
     public static void main(String[] args) {
+
         Bag<Double> numbers = new Bag<>();
         while (StdIn.isNotEmpty()) {
             numbers.add(StdIn.readDouble());
